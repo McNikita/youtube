@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: tan;
+}
+.logo{
+    background-color: pink;
+    display: block;
+
+}
+.logo img{
+    width: 100px;
+}
