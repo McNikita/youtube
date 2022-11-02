@@ -4,12 +4,50 @@
 }
 header{
     background-color: tan;
+    height: 100px;
 }
 .logo{
     background-color: pink;
     display: block;
+    float: left;
 
 }
 .logo img{
     width: 100px;
+    vertical-align: middle;
 }
+.logo h4{
+    display: inline-block;
+    vertical-align: middle;
+}
+ .headerMenu{
+    background-color: gold;
+    float:right ;
+}
+.Menu{
+background-color: tomato;
+ line-height: 100px;
+display: inline-block;
+
+}
+nav{
+    background-color: blue;
+}
+nav a{
+background-color: pink;
+display: block;
+}
+a{
+line-height: 100px;
+text-align: center;
+
+}
+
+
+
+
+
+   
+
+   
+   
