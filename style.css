@@ -1,6 +1,11 @@
 *{
+
     margin: 0;
     padding: 0;
+
+}
+body{
+    overflow-x:hidden;
 }
 header{
     background-color: tan;
@@ -23,6 +28,10 @@ header{
  .headerMenu{
     background-color: gold;
     float:right ;
+
+}
+.headerMenu:hover nav{
+    transform: translateX(0);
 }
 .Menu{
 background-color: tomato;
@@ -32,16 +41,30 @@ display: inline-block;
 }
 nav{
     background-color: blue;
+    position: absolute;
+    right: 0;
+    transform: translateX(100%);
+    transition: 0.5s;
 }
 nav a{
 background-color: pink;
 display: block;
+color: white;
+text-decoration: none;
+line-height: 40px;
 }
 a{
-line-height: 100px;
+
 text-align: center;
 
+
+
+    
 }
+
+
+
+
 
 
 
