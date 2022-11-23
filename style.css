@@ -6,24 +6,32 @@
 }
 body{
     overflow-x:hidden;
+    background-image: url("179 Fabled Sunset.png");
+    font-family: 'Raleway', sans-serif;
+
 }
 header{
-    background-color: tan;
     height: 100px;
 }
 .logo{
-    background-color: pink;
+    /* background-color: pink; */
     display: block;
     float: left;
+    text-decoration: none;
 
 }
 .logo img{
-    width: 100px;
+    width: 50px;
     vertical-align: middle;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 10px;
 }
 .logo h4{
     display: inline-block;
     vertical-align: middle;
+    margin-top: 25px;
+    color: #222;
 }
  .headerMenu{
     background-color: gold;
@@ -31,7 +39,7 @@ header{
 
 }
 .headerMenu:hover nav{
-    transform: translateX(0);
+    transform: translateX(-100%);
 }
 .Menu{
 /* background-color: tomato; */
@@ -45,8 +53,8 @@ color: black;
 nav{
     background-color: blue;
     position: absolute;
-    right: 0;
-    transform: translateX(100%);
+    right: -150px;
+    /* transform: translateX(100%); */
     transition: 0.5s;
 }
 nav a{
@@ -55,6 +63,7 @@ display: block;
 color: white;
 text-decoration: none;
 line-height: 40px;
+width: 150px;
 }
 a{
 
@@ -65,6 +74,13 @@ text-align: center;
 
     
 }
+.Menu:hover{
+    background-color: white;
+}
+    
+
+   
+
 
 
 
