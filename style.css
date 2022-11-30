@@ -72,10 +72,15 @@ text-align: center;
 
 
 
+
     
 }
 .Menu:hover{
     background-color: white;
+
+}
+a:hover{
+    background-color: gold;
 }
     
 
