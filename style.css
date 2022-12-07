@@ -82,7 +82,18 @@ text-align: center;
 a:hover{
     background-color: gold;
 }
-    
+   .fon{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+    /* чтобы картинка была размытой */
+    filter: blur(10px);
+   }
+   section{
+    position: relative;
+   } 
 
    
 
