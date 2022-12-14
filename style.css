@@ -30,7 +30,7 @@ header{
 .logo h4{
     display: inline-block;
     vertical-align: middle;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     color: #222;
 }
  .headerMenu{
@@ -45,8 +45,8 @@ header{
 /* background-color: tomato; */
  line-height: 100px;
 display: inline-block;
-padding-left: 20px;
-padding-right: 20px;
+/* padding-left: 20px;
+padding-right: 20px; */
 text-decoration: none;
 color: black;
 }
@@ -83,15 +83,22 @@ a:hover{
     background-color: gold;
 }
    .fon{
+       /* позволяет сдвигать элемент со своего обычного места. нужно, чтобы картинка была отдельно от общего порядка тегов */
     position: absolute;
+    /* устанавливает ширину элемента */
     width: 100%;
+    /* чтобы картинка не приближалась (А4 уходит на задний план) */
     z-index: -1;
+    /* высота. */
     height: 100%;
+    /* чтобы картинка не растягивалась  */
     object-fit: cover;
+    
     /* чтобы картинка была размытой */
     filter: blur(10px);
    }
    section{
+       /* Чтобы размытый фон выравнивался относительно этой секции */
     position: relative;
    } 
 
